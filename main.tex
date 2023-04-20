@@ -208,21 +208,6 @@
 	\picframe{(Generalized) Hyper Tree Results}{pics/hwresult}
 
 	\picframe{Summary of (Hyper) Tree Width}{pics/tw}
-	% \begin{frame}{Main Problems}
-	% 	\begin{problem}[\#DCQ, \#ECQ]
-	% 		\pic[100]{pics/ECQ}
-	% 		\begin{itemize}
-	% 			\item \#CQ、\#DCQ的定义与之类似
-	% 		\end{itemize}
-	% 	\end{problem}
-	% 	\begin{definition}[FPRAS,FPTRAS]
-	% 		\begin{itemize}
-	% 			\item 都是$|\mathrm{Ans}(\varphi,\mathcal{D})|$的$(\varepsilon,\delta)$-近似算法
-	% 			\item FPRAS\footnote{fully polynomial randomised approximation scheme}：时间为$\mathrm{poly}(|\mathcal{D}|+|\varphi|,\varepsilon^{-1},\log\delta^{-1})$
-	% 			\item FPTRAS\footnote{fixed-parameter tractable randomised approximation scheme}：时间为$f(|\varphi|)\cdot\mathrm{poly}(|\mathcal{D}|,\varepsilon^{-1},\log\delta^{-1})$
-	% 		\end{itemize}
-	% 	\end{definition}
-	% \end{frame}
 	\section{Main Results}
 	\begin{frame}{Main Results}
 		\pic{pics/mainthm}
@@ -248,12 +233,11 @@
 	\end{frame}
 	\begin{frame}{From Conjunctive Query to Tree Automata}
 		\pic{pics/cq2ta}
-		\vspace{2ex}
 		\begin{itemize}
 			\item $Q(x)\leftarrow G(x), E(x, y), E(x, z), C(y), M(z)$
-		\end{itemize}	
-		\vspace{2ex}
-		\pic{pics/anstree}		
+		\end{itemize}
+		\pic{pics/anstree}
+		\pic{pics/cta}	
 	\end{frame}
 	\section{Counting Accepted Trees of Tree Automata}
 	\begin{frame}
