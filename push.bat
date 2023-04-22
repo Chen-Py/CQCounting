@@ -7,7 +7,7 @@ del *.log
 del *.bcf
 del *.aux
 del *.snm
-move -y main.pdf docs/
+move -Y ./main.pdf ./docs/
 git add *
 set now=%date% %time%
 git commit -m "%now%"
