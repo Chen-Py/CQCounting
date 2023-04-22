@@ -38,11 +38,6 @@ jobs:
         with:
           # Upload entire repository
           path: './docs'
-      - name: Upload pdf
-        uses: actions/upload-pages-artifact@v1
-        with:
-          # Upload entire repository
-          path: './main.pdf'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
